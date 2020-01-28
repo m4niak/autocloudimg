@@ -5,7 +5,7 @@
 DATA=$(date '+%Y-%m-%d-%H-%M-%S')
 
 declare -A VERSION_VM
-VERSION_VM = ( [ubuntu16]="https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-adm64-disk1.img" [ubuntu18]="https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.img" [centos7]="https://cloud.centos.org/centos/7/CentOS-7-x86_64-GenericCloud.qcow2" ) 
+VERSION_VM=( [ubuntu16]="https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-adm64-disk1.img" [ubuntu18]="https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.img" [centos7]="https://cloud.centos.org/centos/7/CentOS-7-x86_64-GenericCloud.qcow2" ) 
 
 declare -A VARIANT
 VARIANT=( [ubuntu16]="ubuntu16.04" [ubuntu]="ubuntu17.04" [centos]="rhel7" )
